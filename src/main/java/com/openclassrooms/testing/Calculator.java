@@ -12,6 +12,13 @@ public class Calculator {
 	public int multiply(int a, int b) {
 		return a * b;
 	}
+	public double add(double a, int b) {
+		return a + b;
+	}
+
+	public double multiply(double a, int b) {
+		return a * b;
+	}
 
 	public void longCalculation() {
 		try {
